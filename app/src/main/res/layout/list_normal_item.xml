@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:orientation="horizontal">
+
+    <View
+        android:id="@+id/view_color_bar"
+        android:layout_width="@dimen/list_item_colorbar"
+        android:layout_height="match_parent"
+        />
+
+    <TextView
+        android:id="@+id/txt_station"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_vertical|left"
+        android:padding="@dimen/activity_horizontal_margin"
+        android:textColor="@color/teal_800"
+        android:textSize="@dimen/list_section_title"/>
+
+</LinearLayout>
